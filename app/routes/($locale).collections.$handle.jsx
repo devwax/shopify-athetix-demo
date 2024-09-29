@@ -93,14 +93,14 @@ export default function Collection() {
           />
         )}
       </PaginatedResourceSection>
-      <Analytics.CollectionView
+      {/* <Analytics.CollectionView
         data={{
           collection: {
             id: collection.id,
             handle: collection.handle,
           },
         }}
-      />
+      /> */}
     </div>
   );
 }
